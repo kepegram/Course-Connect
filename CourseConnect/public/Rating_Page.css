@@ -1,0 +1,175 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    display: grid;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    white-space: nowrap;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+html {
+    min-height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    margin: 10px;
+    align-items: center;
+    line-break: loose;
+    background-size: auto;
+    background: linear-gradient(orange, white) no-repeat center center fixed;
+}
+
+form {
+    margin: auto;
+}
+
+textarea {
+    max-width: 95%;
+}
+
+#AddReview {
+    text-align: center;
+    border: solid 1px black;
+    max-width: 50%;
+    background-color: darkgoldenrod;
+    width: 100%;
+    font-size: larger;
+    box-shadow: 5px 10px 8px 10px black;
+}
+
+label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#NumRating,
+#ProfRating {
+    width: 150px;
+    font-weight: bold;
+    font-size: larger;
+    background-color: aliceblue;
+}
+
+select {
+    width: max-content;
+    width: 150px;
+    font-weight: bold;
+    font-size: Larger;
+    background-color: aliceblue;
+}
+
+textarea {
+    resize: none;
+    font-weight: bold;
+    font-size: larger;
+    background-color: aliceblue;
+    width: max-content;
+}
+
+#SubmitReview {
+    transition-duration: 0.4s;
+    font-size: larger;
+    font-weight: bold;
+    border: 5px solid green;
+}
+
+#SubmitReview:hover {
+    background-color: green;
+    color: black;
+}
+
+.card {
+    box-shadow: 5px 10px 8px 10px black;
+    width: 40%;
+    height: 50%;
+    max-width: 800px;
+    min-height: 50%;
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 6%;
+}
+
+#tuImage {
+    width: 120px;
+    height: 100px;
+}
+
+.PrefProf {
+    text-align: center;
+}
+
+/*bottom nav bar*/
+
+.bnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin-left: -10px;
+}
+
+.fa {
+    float: right;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
